@@ -40,7 +40,8 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE DEVOPS ENGINEER ALWAYS LEARNING AND AUTOMATING INFRASTRUCTURE",
+  subTitle:
+    "PASSIONATE DEVOPS ENGINEER ALWAYS LEARNING AND AUTOMATING INFRASTRUCTURE",
   skills: [
     emoji("⚡ Manage and automate scalable cloud infrastructure (AWS, Azure)"),
     emoji("⚡ Containerization and orchestration using Docker and Kubernetes"),
@@ -108,9 +109,7 @@ const educationInfo = {
       subHeader: "B.E. Bachelor of Engineering (Information Technology)",
       duration: "2016 - 2020",
       desc: "Explored computer science fundamentals, participated in projects focused on cloud computing and DevOps, and fostered practical skills for real-world IT environments.",
-      descBullets: [
-        "Published a research paper in IJRCIT"
-      ]
+      descBullets: ["Published a research paper in IJRCIT"]
     }
   ]
 };
@@ -185,7 +184,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "FirstCry E-Commerce Platform",
-      projectDesc: "Worked on deploying, scaling and monitoring a large-scale e-commerce platform using modern DevOps practices.",
+      projectDesc:
+        "Worked on deploying, scaling and monitoring a large-scale e-commerce platform using modern DevOps practices.",
       footerLink: [
         {
           name: "Visit Website",
@@ -196,7 +196,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "MedCare Healthcare SaaS, UAE",
-      projectDesc: "Automated deployments, set up CI/CD and cloud monitoring for a healthcare software platform.",
+      projectDesc:
+        "Automated deployments, set up CI/CD and cloud monitoring for a healthcare software platform.",
       footerLink: [
         {
           name: "Visit Website",
@@ -207,7 +208,8 @@ const bigProjects = {
     {
       image: require("./assets/images/codeInLogo.webp"),
       projectName: "Joy Skincare Platform",
-      projectDesc: "Setup cloud hosting, automated scaling and monitoring for a high-traffic skincare product website.",
+      projectDesc:
+        "Setup cloud hosting, automated scaling and monitoring for a high-traffic skincare product website.",
       footerLink: [
         {
           name: "Visit Website",
@@ -222,21 +224,18 @@ const bigProjects = {
 // Achievement Section
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, and cool stuff I've done so far!",
+  subtitle: "Achievements, Certifications, and cool stuff I've done so far!",
   achievementsCards: [
     {
       title: "Artificial Intelligence Using Python",
-      subtitle:
-        "Certification from NIELIT Delhi.",
+      subtitle: "Certification from NIELIT Delhi.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "AI Python Certificate",
       footerLink: []
     },
     {
       title: "Microsoft Certified DevOps Engineer Expert",
-      subtitle:
-        "Earned the devops engineer expert credential from Microsoft.",
+      subtitle: "Earned the devops engineer expert credential from Microsoft.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "Microsoft Cert",
       footerLink: []
@@ -271,7 +270,9 @@ const blogSection = {
 // Talks Sections - optional, currently none
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("Happy to share my DevOps knowledge at meetups and webinars."),
+  subtitle: emoji(
+    "Happy to share my DevOps knowledge at meetups and webinars."
+  ),
   talks: [],
   display: false
 };
@@ -293,7 +294,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 9527945505",
   email_address: "mandar.ingle04@gmail.com"
 };
